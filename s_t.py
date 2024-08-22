@@ -15,8 +15,8 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.title("TU chinito de confianza")
+st.subheader("Che achuchare a chachuchi.")
 
 
 image = Image.open('chinito.jpeg')
