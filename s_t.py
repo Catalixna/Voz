@@ -73,37 +73,37 @@ if result:
     text = str(result.get("GET_TEXT"))
     in_lang = st.selectbox(
         "Selecciona el lenguaje de Entrada",
-        ("Inglés", "Español", "Ewe", "Coreano", "Mandarín", "Guaraní"),
+        ("Inglés", "Español", "Árabe", "Coreano", "Mandarín", "Francés"),
     )
     if in_lang == "Inglés":
         input_language = "en"
     elif in_lang == "Español":
         input_language = "es"
-    elif in_lang == "Ewe":
-        input_language = "ee"
+    elif in_lang == "Árabe":
+        input_language = "ar"
     elif in_lang == "Coreano":
         input_language = "ko"
     elif in_lang == "Mandarín":
         input_language = "zh-cn"
-    elif in_lang == "Guaraní":
-        input_language = "gn"
+    elif in_lang == "Francés":
+        input_language = "fr"
     
     out_lang = st.selectbox(
         "Selecciona el lenguaje de salida",
-        ("Inglés", "Español", "Ewe", "Coreano", "Mandarín", "Guaraní"),
+        ("Inglés", "Español", "Árabe", "Coreano", "Mandarín", "Francés"),
     )
     if out_lang == "Inglés":
         output_language = "en"
     elif out_lang == "Español":
         output_language = "es"
-    elif out_lang == "Ewe":
-        output_language = "ee"
+    elif out_lang == "Árabe":
+        output_language = "ar"
     elif out_lang == "Coreano":
         output_language = "ko"
     elif out_lang == "Mandarín":
         output_language = "zh-cn"
-    elif out_lang == "Guaraní":
-        output_language = "gn"
+    elif out_lang == "Francés":
+        output_language = "fr"
     
     english_accent = st.selectbox(
         "Selecciona el acento",
