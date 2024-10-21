@@ -16,7 +16,7 @@ from googletrans import Translator
 
 
 st.markdown("<h1 style='text-align: center; color: #3c7136;'>TÚ chinito de confianza</h1>", unsafe_allow_html=True)
-st.subheader("¡¡Te ayudare a traducir!!")
+st.subheader("< style='text-align: center; color: #3c7136;'>¡¡Te ayudare a traducir!!")
 
 
 image = Image.open('chinito.jpeg')
