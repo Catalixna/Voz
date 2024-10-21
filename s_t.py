@@ -67,12 +67,12 @@ if result:
         os.mkdir("temp")
     except:
         pass
-    st.title("Texto a Audio")
+    st.title("Audio")
     translator = Translator()
     
     text = str(result.get("GET_TEXT"))
     in_lang = st.selectbox(
-        "Selecciona el lenguaje de Entrada",
+        "Selecciona el lenguaje inicial",
         ("Inglés", "Español", "Árabe", "Coreano", "Mandarín", "Francés"),
     )
     if in_lang == "Inglés":
@@ -89,7 +89,7 @@ if result:
         input_language = "fr"
     
     out_lang = st.selectbox(
-        "Selecciona el lenguaje de salida",
+        "Selecciona el lenguaje que te gustaria",
         ("Inglés", "Español", "Árabe", "Coreano", "Mandarín", "Francés"),
     )
     if out_lang == "Inglés":
