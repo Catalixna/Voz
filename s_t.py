@@ -15,7 +15,7 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TÚ chinito de confianza")
+st.markdown("<h1 style='text-align: center; color: #3c7136;'>TÚ chinito de confianza</h1>", unsafe_allow_html=True)
 st.subheader("¡¡Te ayudare a traducir!!")
 
 
