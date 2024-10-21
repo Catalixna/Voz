@@ -15,7 +15,7 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.markdown("<h1 style='text-align: center; color: #3c7136;'>TÚ chinito de confianza</h1>", unsafe_allow_html=True)
+st.markdown("<h1 color: #661200;'>_TÚ chinito de confianza_</h1>", unsafe_allow_html=True)
 st.subheader("_¡¡Te ayudare a traducir!!_")
 
 
@@ -29,7 +29,7 @@ with st.sidebar:
                  " la configuración de lenguaje que necesites.")
 
 
-st.write("Presiona y habla traducira lo que digas. ")
+st.write("_Presiona y habla traducira lo que digas._ ")
 
 stt_button = Button(label=" Escuchar  🎤", width=300,  height=50)
 
