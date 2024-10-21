@@ -24,7 +24,7 @@ image = Image.open('chinito.jpeg')
 st.image(image,width=300)
 with st.sidebar:
     st.subheader("Traductor.")
-    st.write("Presiona el botón "escuchar", cuando escuches la señal "
+    st.write("Presiona el botón **_escuchar_**, cuando escuches la señal "
                  "habla lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites.")
 
