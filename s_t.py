@@ -15,8 +15,8 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TU chinito de confianza")
-st.subheader("Che achuchare a chachuchi.")
+st.title("TÚ chinito de confianza")
+st.subheader("¡¡Te ayudare a traducir!!")
 
 
 image = Image.open('chinito.jpeg')
@@ -24,12 +24,12 @@ image = Image.open('chinito.jpeg')
 st.image(image,width=300)
 with st.sidebar:
     st.subheader("Traductor.")
-    st.write("Presiona el botón, cuando escuches la señal "
+    st.write("Presiona el escuchar, cuando escuches la señal "
                  "habla lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites.")
 
 
-st.write("Toca el Botón y habla lo que quires traducir")
+st.write("Presiona y habla traducira lo que digas. ")
 
 stt_button = Button(label=" Escuchar  🎤", width=300,  height=50)
 
